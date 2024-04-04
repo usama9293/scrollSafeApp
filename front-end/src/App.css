@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+
+a{
+  color: #000 !important;
+}
+.brand-logo{
+  font-family:"Grand Hotel", cursive;
+}
+.mycard{
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+.mycard h2{
+  font-family: "Grand Hotel", cursive;
+}
+
+.auth-card{
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #4385cb  !important;
+  box-shadow: 0 1px 0 0 #4385cb  !important;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #4385cb  !important;
+  box-shadow: 0 1px 0 0 #4385cb  !important;
+}
+
+.dp{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 15px;
+  border-bottom: 1px solid gray;
+}
+.pf{
+ display: flex;
+ justify-content: space-around;
+ width: 108%;
+
+
+}
+.gallery{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 15px;
+ 
+}
+.item{
+  width:30%;
+}
+.container{
+  max-width: 550px;
+  margin: 0px auto; 
+}
+.home-card{
+max-width: 500px;
+height: max-content;
+margin:  26px auto;
+
+}
+.home-card h5{
+  font-family: "arial";
+  margin-left: 40px;
+  position: relative;
+  top:0px;
+
+
+}
+
+.input-filed{
+  margin: 30px auto;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+.mycard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+
+}
+
+.card {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card {
+  text-align: center;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e88e5;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f5abc;
+}
+
+h6 {
+  margin-top: 15px;
+}
+
+h6 a {
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+h6 a:hover {
+  text-decoration: underline;
+}
+.heart1{
+   width: 20px;
+
+}
+.heart2{
+  width: 20px;
+}
+.cmt{
+  width: 20px;
+  margin-left: 5px;
+}
+.profile{
+  width: 45px;
+border-radius:50% ; 
+position: relative;
+top: 50px;
+}
+/* nn */
+.home {
+  display: flex;
+ 
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.home-card {
+  width: 500px;
+  height: 700px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-image img {
+  height: 40vh;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+.heart1,
+.heart2,
+.cmt 
+{
+  width: 20px;
+  margin-right: 5px;
+}
+.more{
+  width: 20px;
+  position: relative;
+  top: -30px;
+  left: 400px;
+
+}
+
+.comment-form {
+  margin-top: 8px;
+}
+
+.comment-form input[type="text"] {
+  width: calc(100% - 55px); /* Adjusted width to accommodate the icon */
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.comment-form input[type="submit"] {
+  background-color: #3897f0;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-form input[type="submit"]:hover {
+  background-color: #3578e5;
+}
+
+/* Additional styles for better alignment */
+.card-content h6 {
+  display: flex;
+  align-items: center;
+}
+.suggestions {
+  position: relative;
+  left: 450px; /* Adjust the left position */
+  width: 300px; /* Set a smaller width */
+  margin-top: 20px;
+  top:-9300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.suggested-users {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.user {
+  text-align: center;
+}
+
+.user a {
+  text-decoration: none;
+  color: #000;
+}
+
+.user img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.follow-button {
+  margin-top: 10px;
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.notifications-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 200px;
+}
+
+.notifications-dropdown p {
+  color: #333;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.notifications-dropdown p:last-child {
+  border-bottom: none;
+}
+.noti{
+
+  margin-left: 5px;
+}
